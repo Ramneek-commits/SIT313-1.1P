@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+}
+
+    header img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Projects */
+.projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+    .project img {
+        width: 300px;
+        height: auto;
+    }
+
+/* Gallery */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .gallery-container img {
+        width: 200px;
+        height: auto;
+    }
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
